@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LogiConnect</title>
+
+    <!-- ✅ Tailwind CDN (NO BUILD NEEDED) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Optional theme -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#0f172a",
+              accent: "#22c55e"
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+
+  <body class="bg-primary text-white">
+    <div id="root"></div>
+
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
